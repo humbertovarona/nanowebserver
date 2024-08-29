@@ -40,12 +40,14 @@ The project is organized as follows:
 ```
 work_directory/
 ├── configs/
-│   └── nginx/
-│       ├── nginx.conf                  # Main Nginx configuration file
-│       ├── sites/                      # Virtual host configurations
-│       │   ├── site1.conf              # Configuration for site1
-│       │   └── site2.conf              # Configuration for site2
-│       └── hosts                       # Hosts file containing domain mappings
+│   ├── nginx/
+│   │   ├── nginx.conf                  # Main Nginx configuration file
+│   │   ├── sites/                      # Virtual host configurations
+│   │   │   ├── site1.conf              # Configuration for site1
+│   │   │   └── site2.conf              # Configuration for site2
+│   │   └── hosts                       # Hosts file containing domain mappings
+│   └── php/
+│       └── php-fpm.conf                # PHP-FPM configuration file
 ├── websites/
 │   ├── site1/                          # Files for site1
 │   │   ├── index.php
