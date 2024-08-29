@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Multi-Site Docker with Nginx and PHP-FPM (nanowebserver)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Varona
+    given-names: Humberto L.
+    email: humberto.varona@gmail.com
+    affiliation: >-
+      Center for Risk Analysis and Environmental Modeling (CEERMA),
+      Federal University of Pernambuco. Recife, PE, Brazil.
+    orcid: 'https://orcid.org/0000-0001-7405-4827'
+  - family-names: Herold-Garcia
+    given-names: Silena
+    email: silena.herold@gmail.com
+    affiliation: >-
+      Center for Risk Analysis and Environmental Modeling (CEERMA),
+      Federal University of Pernambuco. Recife, PE, Brazil.
+    orcid: 'https://orcid.org/0000-0001-9238-3472'
+repository-code: 'https://doi.org/10.5281/zenodo.13550841'
+abstract: >-
+  A Docker setup that serves multiple websites using Nginx and PHP-FPM.
+  The setup is configured to work in a local network, allowing access to
+  different websites hosted within the same Docker container.
+keywords:
+  - Webserver
+  - Nginx
+  - PHP-FPM
+license: MIT
+version: '1.0'
+date-released: '2024-08-23'
