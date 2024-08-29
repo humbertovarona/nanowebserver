@@ -122,10 +122,11 @@ docker build -t nanowebserver .
 docker run -d --name nwsite -p 8083:8083 \
 -v $(pwd)/configs/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \
 -v $(pwd)/configs/nginx/sites/:/etc/nginx/sites-available/:ro \
+-v $(pwd)/configs/php/php-fpm.conf:/etc/php82/php-fpm.conf:ro \
 -v $(pwd)/websites/site1:/var/www/html/site1 \
 -v $(pwd)/websites/site2:/var/www/html/site2 \
 -v $(pwd)/configs/nginx/hosts:/etc/hosts:ro \
-nanowebserver
+nanowebservice
 ```
 
 ## Verifying the Setup
